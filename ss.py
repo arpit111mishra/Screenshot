@@ -8,6 +8,7 @@ def screenshot():
     img = pyautogui.screenshot(name)
     img.show()
     
+    
 root = tk.Tk()
 frame=tk.Frame(root)
 frame.pack()
